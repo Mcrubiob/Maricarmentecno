@@ -1,0 +1,118 @@
+/*INICIO esta es la tipografía roboto*/
+.roboto-light, html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*CIERRE esta es la tipografía roboto*/
+
+section{
+	margin:5%;
+}
+
+
+footer{
+	background-color:lightgrey;
+}
+
+
+h1{
+	color:magenta;
+	text-align:center;
+}
+
+h2{
+	color:blue;
+}
+.avatar{
+	text-align:center;
+}
+
+.avatar img{
+	width:100px;
+}
+.avatar h2{
+	font-size:15px;
+	color:salmon;
+}
+h1{
+	padding:20px 0;
+}
+.escudo img{
+	float:right;
+	width:100px
+}
+footer{
+	padding:10px 20px;
+}
+
+.menu li{
+	display:inline-block;
+	padding-right:30px;
+	font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	
+	
+}
+.menu{
+float:right;
+
+	
+}
+
+header{
+	background-color:lightpink;
+}
+.localizacion{
+	text-align:center;
+}
+
+button{
+  display:block;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:8px;
+  font-size: 25px;
+  background-color: magenta;
+  border: 8px outset;
+}
+
+body.claro{
+	background-color: white;
+	color: black;
+}
+body.claro #tema{
+	background-color: #232323;
+	color: #F9F9F9;
+}
+body.oscuro{
+	background-color: black;
+	color: white;
+}
+body.oscuro #tema{
+	background-color: #F9F9F9;
+	color: #232323;
+
